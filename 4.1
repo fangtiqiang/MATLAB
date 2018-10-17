@@ -1,0 +1,69 @@
+>> %4.1 Create the following matrices, and use them in the exercises that follow:
+>> a=[15 3 22;3 8 5;14 3 82]
+
+a =
+
+    15     3    22
+     3     8     5
+    14     3    82
+
+>> b=[1;5;6]
+
+b =
+
+     1
+     5
+     6
+
+>> c=[12 18 5 2]
+
+c =
+
+    12    18     5     2
+
+>> %(a) Create a matrix called d from the third column of matrix a.
+%(b) Combine matrix b and matrix d to create matrix e, a two-dimensional matrix with three rows and two columns.
+%(c) Combine matrix b and matrix d to create matrix f, a one-dimensional matrix with six rows and one column.
+%(d) Create a matrix g from matrix a and the f rst three elements of matrix c,with four rows and three columns.
+%(e) Create a matrix h with the f rst element equal to a1,3, the second element equal to c1,2, and the third element equal to b2,1.
+>> d=a(:,3)
+
+d =
+
+    22
+     5
+    82
+
+>> e=[b d]   
+
+e =
+
+     1    22
+     5     5
+     6    82
+
+>> f=[b;d]
+
+f =
+
+     1
+     5
+     6
+    22
+     5
+    82
+
+>> g=[a;c(1:3)]
+
+g =
+
+    15     3    22
+     3     8     5
+    14     3    82
+    12    18     5
+
+>> h=[a(1,3),c(1,2),b(2,1)]
+
+h =
+
+    22    18     5
