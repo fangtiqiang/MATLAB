@@ -1,0 +1,88 @@
+>> %3.15 Consider the following table of data representing temperature readings in a reactor:
+>> %Thermocouple 1 Thermocouple 2 Thermocouple 3
+%       84.3           90.0           86.7
+%       86.4           89.5           87.6
+%       85.2           88.6           88.3
+%       87.1           88.9           85.3
+%       83.5           88.9           80.3
+%       84.8           90.4           82.4
+%       85.0           89.3           83.4
+%       85.3           89.5           85.4
+%       85.3           88.9           86.3
+%       85.2           89.1           85.3
+%       82.3           89.5           89.0
+%       84.7           89.4           87.3
+%       83.6           89.8           87.2
+>> Thermocouple1=[84.3 86.4 85.2 87.1 83.5 84.8 85.0 85.3 85.3 85.2 82.3 84.7 83.6]
+
+Thermocouple1 =
+
+  Columns 1 through 10
+
+   84.3000   86.4000   85.2000   87.1000   83.5000   84.8000   85.0000   85.3000   85.3000   85.2000
+
+  Columns 11 through 13
+
+   82.3000   84.7000   83.6000
+
+>> Thermocouple2=[90.0 89.5 88.6 88.9 88.9 90.4 89.3 89.5 88.9 89.1 89.5 89.4 89.8]
+
+Thermocouple2 =
+
+  Columns 1 through 10
+
+   90.0000   89.5000   88.6000   88.9000   88.9000   90.4000   89.3000   89.5000   88.9000   89.1000
+
+  Columns 11 through 13
+
+   89.5000   89.4000   89.8000
+
+>> Thermocouple3=[86.7 87.6 88.3 85.3 80.3 82.4 83.4 85.4 86.3 85.3 89.0 87.3 87.2]
+
+Thermocouple3 =
+
+  Columns 1 through 10
+
+   86.7000   87.6000   88.3000   85.3000   80.3000   82.4000   83.4000   85.4000   86.3000   85.3000
+
+  Columns 11 through 13
+
+   89.0000   87.3000   87.2000
+
+>> ThemaximumtemperatureofThermocouple1=max(Thermocouple1) 
+
+ThemaximumtemperatureofThermocouple1 =
+
+   87.1000
+
+>> ThemaximumtemperatureofThermocouple2=max(Thermocouple2)
+
+ThemaximumtemperatureofThermocouple2 =
+
+   90.4000
+
+>> ThemaximumtemperatureofThermocouple3=max(Thermocouple3)
+
+ThemaximumtemperatureofThermocouple3 =
+
+    89
+
+>> TheminimumtemperatureofThermocouple1=min(Thermocouple1)
+
+TheminimumtemperatureofThermocouple1 =
+
+   82.3000
+
+>> TheminimumtemperatureofThermocouple2=min(Thermocouple2)
+
+TheminimumtemperatureofThermocouple2 =
+
+   88.6000
+
+>> TheminimumtemperatureofThermocouple3=min(Thermocouple3)
+
+TheminimumtemperatureofThermocouple3 =
+
+   80.3000
+
+>> 
